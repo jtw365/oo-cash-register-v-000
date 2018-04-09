@@ -23,13 +23,8 @@ class CashRegister
     end
   end
 
-  def self.all
-    @@all
-  end
-
   def items
-    @@all << self
-    #binding.pry
+    @@all
   end
 
 
