@@ -8,7 +8,6 @@ class CashRegister
     @total = 0
     @discount = discount
     @all = []
-    @item = @all.pop
   end
 
   def add_item(title, price, quantity = 1)
