@@ -29,7 +29,7 @@ class CashRegister
 
   def items
     @@all << self
-    binding.pry
+    #binding.pry
   end
 
 
