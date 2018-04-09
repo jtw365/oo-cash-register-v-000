@@ -15,7 +15,7 @@ class CashRegister
       @all << title
     end
     self.total += price * quantity
-    binding.pry
+    self.last_transaction = amount * quantity
   end
 
   def apply_discount
