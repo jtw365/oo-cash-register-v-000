@@ -32,9 +32,6 @@ class CashRegister
 
   def void_last_transaction
     @all.pop
-
-    binding.pry
-
   end
 
 
